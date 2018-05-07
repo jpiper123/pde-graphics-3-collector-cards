@@ -29,18 +29,20 @@ void draw() {
   
   fill(0,0,0); //First move title
   textSize(15);
-  text("Eeeeeeeek", 200, 454);
+  text("Eeeeeeeek                                                       10", 200, 454);
   
   fill(0,0,0); //Second move title
   textSize(15);
-  text("Photon Geyser", 220, 525);
+  text("Photon Geyser                                          100", 220, 525);
   
   Roman = createFont(fontList[n], 32); //Move description font
   textFont(Roman);
   
   textSize(10);
-  text("The user screams into the opponent's ear with a tiny sound", 200, 470); //First move description
+  text("The user squeaks into the opponent's ear, why is this even a move.", 181, 475); //First move description
   
+  textSize(10);
+  text("The user attacks the opponent with a pillar of light.", 151, 550); //Second move description
   
   //image(Pokemon,125,30,120,75);
 }
