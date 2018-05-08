@@ -58,5 +58,5 @@ void draw() {
   textSize(10);
   text("No.800 Prism Pokemon Height.7.5m Weight.230kg", 190, 385);
   
-  image(Pokemon,172,107,365,260);
+  image(Pokemon,171,102,361,260);
 }
