@@ -25,7 +25,7 @@ void draw() {
   background(0,0,255);
   image(template,125,30);
   
-  Bold_Italic = createFont(fontList[n], 32); //Main font
+  Bold_Italic = createFont(fontList[139], 32); //Main font
   textFont(Bold_Italic);
   
   fill(0,0,0); //Pokemon name
@@ -43,7 +43,7 @@ void draw() {
   textSize(15); //Second move
   text("               Photon Geyser                           100", 220, 525);
   
-  Roman = createFont(fontList[n], 32); //Move description font
+  Roman = createFont(fontList[141], 32); //Move description font
   textFont(Roman);
   
   textSize(10);
@@ -52,7 +52,7 @@ void draw() {
   textSize(10);
   text("The user attacks the opponent with a pillar of light.", 151, 550); //Second move description
   
-  Light = createFont(fontList[n], 32); //Pokemon info font
+  Light = createFont(fontList[131], 32); //Pokemon info font
   textFont(Light);
   
   textSize(10);
